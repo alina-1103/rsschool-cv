@@ -22,3 +22,8 @@ I want to have a job where there is always space for development and there are n
 * CSS3
 * Git (Basics)
 * VSCode
+
+### Languages
+* Russian
+* Belarusian
+* English (Intermediate)
