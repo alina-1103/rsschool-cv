@@ -7,3 +7,7 @@
 * E-mail: alvin03@bk.ru
 * GitHub: alina-1103
 * Discord: Alina Vinnikava
+
+### Education
+* Belarusian National Technical University (Engineer-economist (energy industry))
+* Stormnet courses
