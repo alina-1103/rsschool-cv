@@ -4,8 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML, CSS &amp; Git Basics</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/img/CVicon.ico">
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about-me">About me</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-container">
+            <div class="section" id="profile-photo">
+                <img class="photo" src="./assets/img/PhotoCV.png" alt="photo">
+            </div>
+            <div class="section" id="profile">
+                <h1 class="section-title">Alina Vinnikava</h1>
+                <h2 class="section-title">Junior frontend developer</h2>
+            </div>
+            <div class="section" id="contacts">
+                <h3 class="section-title">Contacts</h3>
+                <ul class="list">
+                    <li class="list-item"><span class="bold-name">Phone:</span> +375 29 285 25 41</li>
+                    <li class="list-item"><span class="bold-name">E-mail:</span> alinavinnikava@gmail.com</li>
+                    <li class="list-item"><span class="bold-name">GitHub:</span> alina-1103</li>
+                    <li class="list-item"><span class="bold-name">Discord:</span> Alina Vinnikava#0896</li>
+                </ul>
+            </div>
+            <div class="section" id="education">
+                <h3 class="section-title">Education</h3>
+                <ul class="list">
+                    <li class="list-item">Belarusian National Technical University (Engineer-economist (energy industry))</li>
+                    <li class="list-item">Stormnet courses</li>
+                </ul>
+            </div>
+            <div class="section" id="about-me">
+                <h3 class="section-title">About me</h3>
+                <p>I've started a career at the energy department at the factory.  While working I’ve taken a part in integration of Lean TPM system and I was focused on spreading this information for staff.  In addition I’ve learnt contract management and estimate business and was doing it for a few years. Later I moved to the planning department, where my responsibilities included creating plans for productions on a daily basis.
+                    Some time ago I was passing html, css, javascript course. I really like it and find it interesting because there is always space for development and there are no limits to opportunities.</p>
+            </div>
+            <div class="section" id="skills">
+                <h3 class="section-title">Skills</h3>
+                <ul class="list">
+                    <li class="list-item">HTML5</li>
+                    <li class="list-item">CSS3</li>
+                    <li class="list-item">Git (Basics)</li>
+                    <li class="list-item">VSCode</li>
+                </ul>
+            </div>
+            <div class="section" id="languages">
+                <h3 class="section-title">Languages</h3>
+                <ul class="list">
+                    <li class="list-item">Russian</li>
+                    <li class="list-item">Belarusian</li>
+                    <li class="list-item">English (Intermediate)</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>
+                <a href="https://rs.school/js/"><img  class="footer-img" src="https://rs.school/images/rs_school_js.svg" alt="rsschool" width="100"></a> 
+            </p>
+            <p class="year">2022</p>
+            <a class="nav-link" href="https://github.com/alina-1103">My github</a>
+        </div>
+    </footer>
 </body>
 </html>
